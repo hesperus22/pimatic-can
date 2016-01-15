@@ -8,7 +8,6 @@
     "can-config-schema.coffee"
   ],
   "version": "0.1.0",
-  "private": true,
   "configSchema": "can-config-schema.coffee",
   "dependencies": {
     "byline": "4.2.1",

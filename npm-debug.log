@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\hesperus\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\hesperus\\AppData\\Roaming\\npm-cache\\pimatic-can\\0.1.0\\package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package.tgz
+12 verbose folder .
+13 info prepublish pimatic-can@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\hesperus\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 0de1a05f-he-pimatic-can-0-1-0-package-tgz tar://C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package.tgz
+17 verbose lock tar://C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package.tgz C:\Users\hesperus\AppData\Roaming\npm-cache\0de1a05f-he-pimatic-can-0-1-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0de1a05f-he-pimatic-can-0-1-0-package-tgz tar://C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package.tgz
+21 silly lockFile 0de1a05f-he-pimatic-can-0-1-0-package-tgz tar://C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package.tgz
+22 silly lockFile 8fe6d79b--cache-pimatic-can-0-1-0-package C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package
+23 verbose lock C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package C:\Users\hesperus\AppData\Roaming\npm-cache\8fe6d79b--cache-pimatic-can-0-1-0-package.lock
+24 silly lockFile 8fe6d79b--cache-pimatic-can-0-1-0-package C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package
+25 silly lockFile 8fe6d79b--cache-pimatic-can-0-1-0-package C:\Users\hesperus\AppData\Roaming\npm-cache\pimatic-can\0.1.0\package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'pimatic-can',
+28 silly publish   description: 'Pimatic CAN plugin',
+28 silly publish   main: 'can',
+28 silly publish   files: [ 'can.coffee', 'README.md', 'can-config-schema.coffee' ],
+28 silly publish   version: '0.1.0',
+28 silly publish   private: true,
+28 silly publish   configSchema: 'can-config-schema.coffee',
+28 silly publish   dependencies:
+28 silly publish    { byline: '4.2.1',
+28 silly publish      'stream-parser': '0.3.1',
+28 silly publish      babysitter: '0.5.0' },
+28 silly publish   peerDependencies: { pimatic: '0.8.*' },
+28 silly publish   engines: { node: '>0.8.x', npm: '>1.1.x' },
+28 silly publish   gitHead: '84c9323050e57c83ea556170a6b6c24244b94944',
+28 silly publish   readme: 'ERROR: No README data found!',
+28 silly publish   _id: 'pimatic-can@0.1.0',
+28 silly publish   scripts: {},
+28 silly publish   _shasum: '1e44817f7969ca7c95314b201df8a70e3b1b6d84',
+28 silly publish   _from: '.' }
+29 error Error: This package has been marked as private
+29 error Remove the 'private' field from the package.json to publish it.
+29 error     at publish_ (c:\Program Files\nodejs\node_modules\npm\lib\publish.js:91:31)
+29 error     at Array.1 (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+29 error     at LOOP (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+29 error     at LOOP (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+29 error     at chain (c:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+29 error     at c:\Program Files\nodejs\node_modules\npm\lib\publish.js:57:5
+29 error     at c:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:22:7
+29 error     at Array.forEach (native)
+29 error     at res (c:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:21:9)
+29 error     at f (c:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:16:25)
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Windows_NT 6.2.9200
+32 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+33 error cwd d:\pcan\node_modules\pimatic-can
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 verbose exit [ 1, true ]
