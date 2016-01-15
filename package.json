@@ -1,0 +1,25 @@
+{
+  "name": "pimatic-can",
+  "description": "Pimatic CAN plugin",
+  "main": "can",
+  "files": [
+    "can.coffee",
+    "README.md",
+    "can-config-schema.coffee"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "configSchema": "can-config-schema.coffee",
+  "dependencies": {
+    "byline": "4.2.1",
+    "stream-parser": "0.3.1",
+    "babysitter":"0.5.0"
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
